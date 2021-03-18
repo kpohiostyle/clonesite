@@ -1,0 +1,54 @@
+body{
+    min-width: 100vw;
+    display:flex;
+    flex-direction: column;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.back-img{
+    background-image: url(./assets/justcause.jpg);
+    background-position: center;
+    background-size: cover;
+    text-shadow: 1px 1px black;
+    height: 50vh;
+}
+main{
+    flex-grow: 1;
+}
+.circle{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.image-one{
+    background-image: url(./assets/maria-molinero-9i89UjkJi34-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    text-shadow: 1px 1px black;
+    height: 200px;
+    width: 200px
+}
+.image-two{
+    background-image: url(./assets/toa-heftiba-oPQivHcHAuQ-unsplash.jpg); 
+    background-position: center;
+    background-size: cover;
+    text-shadow: 1px 1px black;
+    height: 200px
+}
+.image-three{
+    background-image: url(./assets/hope-vcGgjrM57No-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    text-shadow: 1px 1px black;
+    height: 200px;
+    width: 200px;
+}
+
+img{
+    height: 50vh;
+    width: auto;
+}
+h4, small{
+    padding-top: 10vh;
+    padding-left: 15vw;
+}
