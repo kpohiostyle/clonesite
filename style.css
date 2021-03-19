@@ -14,35 +14,33 @@ body{
 main{
     flex-grow: 1;
 }
-.circle{
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-}
 
 .image-one{
     background-image: url(./assets/maria-molinero-9i89UjkJi34-unsplash.jpg);
     background-position: center;
     background-size: cover;
     text-shadow: 1px 1px black;
-    height: 200px;
-    width: 200px
+    min-width: auto;
+    min-height: 15vh;
 }
 .image-two{
     background-image: url(./assets/toa-heftiba-oPQivHcHAuQ-unsplash.jpg); 
     background-position: center;
     background-size: cover;
     text-shadow: 1px 1px black;
-    height: 200px
+    min-width: auto;
+    min-height: 15vh;
 }
+
 .image-three{
     background-image: url(./assets/hope-vcGgjrM57No-unsplash.jpg);
     background-position: center;
     background-size: cover;
     text-shadow: 1px 1px black;
-    height: 200px;
-    width: 200px;
+    min-width: auto;
+    min-height: 15vh;
 }
+
 
 img{
     height: 50vh;
@@ -51,4 +49,21 @@ img{
 h4, small{
     padding-top: 10vh;
     padding-left: 15vw;
+}
+footer p{
+    margin: 0;
+    font-size: 10pt;
+}
+a{
+    color: ghostwhite;
+}
+.learn-more{
+    background-color: bg-light;
+    color: bg-dark;
+}
+
+@media only screen and (max-width: 767px){
+    .img-custom{
+        height: 20vh;
+    }
 }
